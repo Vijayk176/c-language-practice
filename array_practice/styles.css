@@ -1,0 +1,82 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdedb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #dcdedb;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.limited-edition {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.limited-edition h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.limited-edition p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.shop-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+}
